@@ -36,6 +36,18 @@ img {
 	margin-bottom: 84px;
 }
 
+.head__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.head__menu {
+	display: flex;
+	justify-content: space-between;
+	width: 533px;
+}
+
 a {
 	color: #000;
 	font-family: Gilroy-Medium;
@@ -47,10 +59,16 @@ a {
 
 .red__text {
 	color: #f25822;
+	font-family: Gilroy-SemiBold;
 }
 
 .main {
 	margin-bottom: 162.45px;
+}
+
+.mainContent {
+	display: flex;
+	justify-content: space-between;
 }
 
 .mainContent__leftSide h1 {
@@ -61,6 +79,7 @@ a {
 	font-weight: 400;
 	line-height: normal;
 	margin-bottom: 17px;
+	max-width: 522px;
 }
 
 .mainContent__leftSide p {
@@ -71,6 +90,12 @@ a {
 	font-weight: 400;
 	line-height: normal;
 	margin-bottom: 37px;
+	max-width: 466px;
+}
+
+.mainContent__leftSide__btns {
+	display: flex;
+	gap: 57px;
 }
 
 .roundedBtn {
@@ -102,4 +127,6 @@ a {
 
 .footerLogo {
 	margin-bottom: 96px;
+	display: flex;
+	justify-content: space-between;
 }
