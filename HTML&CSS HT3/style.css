@@ -10,6 +10,10 @@
 	font-family: Gilroy-Semibold;
 	src: url(./font/Gilroy-Semibold.woff2);
 }
+@font-face {
+	font-family: Gilroy-Regular;
+	src: url(./font/Gilroy-Regular.woff2);
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -62,13 +66,10 @@ a {
 	font-family: Gilroy-SemiBold;
 }
 
-.main {
-	margin-bottom: 162.45px;
-}
-
 .mainContent {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 162.45px;
 }
 
 .mainContent__leftSide h1 {
@@ -95,11 +96,11 @@ a {
 
 .mainContent__leftSide__btns {
 	display: flex;
-	gap: 57px;
+	gap: 37px;
 }
 
 .roundedBtn {
-	padding: 15px 30px;
+	padding: 15px 35px;
 	border-radius: 50px;
 	background: #f25822;
 	color: #fff;
@@ -110,10 +111,11 @@ a {
 	line-height: normal;
 	border: none;
 	cursor: pointer;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
 }
 
 .transparentBtn {
-	padding: 15px 30px;
+	padding: 15px 35px;
 	background-color: #ffffff;
 	color: #aaa;
 	font-family: Gilroy-Bold;
@@ -125,8 +127,145 @@ a {
 	cursor: pointer;
 }
 
-.footerLogo {
+.Logo {
 	margin-bottom: 96px;
 	display: flex;
 	justify-content: space-between;
+}
+
+.advantages {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.advantages__cards {
+	margin-top: 100px;
+	padding: 40px 30px 25px 30px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	margin-bottom: 100px;
+}
+.header__advantages {
+	margin-top: 25px;
+	margin-bottom: 17px;
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.p__advantages {
+	margin-bottom: 25px;
+	color: #666;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 22.5px */
+}
+
+.adv__link {
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 16.5px */
+}
+.frame__one {
+	background: #fff;
+	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.why__us {
+	background: #fafafa;
+}
+
+.why__upText {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.why__header {
+	margin-top: 92px;
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 19px;
+}
+.p__why {
+	max-width: 682px;
+	color: #666;
+	text-align: center;
+	font-family: Gilroy-Regular;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 24px */
+	margin-bottom: 54px;
+}
+.internal__whyCards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.why__usCards {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.why__cardsHeader {
+	margin-top: 25px;
+	color: #000;
+	font-family: Gilroy-Bold;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 22px;
+}
+
+.p__whyCardsInternal {
+	color: #aaa;
+	text-align: center;
+	font-family: Gilroy-Regular;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 22.5px */
+	max-width: 310px;
+	margin-bottom: 39px;
+}
+
+.frame__two {
+	box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.buttonsWhy {
+	padding: 15px 36px;
+	border-radius: 25px;
+	background: #f25822;
+	color: #fff;
+	text-align: center;
+	font-family: Gilroy-Bold;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%; /* 19.5px */
+	border: none;
+	cursor: pointer;
+	box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+	margin-bottom: 50px;
 }
