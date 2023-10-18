@@ -62,7 +62,6 @@ img {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	flex-wrap: wrap;
 	margin-bottom: 65px;
 }
 
@@ -70,7 +69,6 @@ img {
 	border-left: 12px solid #f16d7f;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 	margin-left: 63.42px;
 }
 .mainText {
@@ -80,7 +78,7 @@ img {
 	font-style: normal;
 	font-weight: 900;
 	line-height: normal;
-	padding: 0px 0px 0px 16px;
+	padding-left: 16px;
 }
 .mainText_low {
 	color: #222;
@@ -89,7 +87,7 @@ img {
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	padding: 0px 0px 0px 16px;
+	padding-left: 16px;
 }
 
 .pink__text {
@@ -240,4 +238,71 @@ img {
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+
+@media (max-width: 1140px) and (min-width: 768px) {
+	.container {
+		max-width: 736.06px;
+	}
+
+	.header {
+		max-width: 768px;
+	}
+
+	.main__bigBlock {
+		max-width: 768px;
+	}
+
+	.mainMessage {
+		margin-left: 39px;
+	}
+	.mainImage {
+		max-width: 386px;
+	}
+
+	.mainText {
+		font-size: 44px;
+		line-height: normal;
+	}
+	.mainText_low {
+		font-size: 24px;
+	}
+	.pink__text {
+		font-size: 24px;
+	}
+	.categories {
+		gap: 19px;
+		margin-bottom: 109.92px;
+	}
+	.categCards1 {
+		width: 231.97px;
+		height: 167.62px;
+	}
+	.categCards2 {
+		width: 231.97px;
+		height: 167.62px;
+	}
+	.categCards3 {
+		width: 231.97px;
+		height: 167.62px;
+	}
+	.categCards4 {
+		width: 734.58px;
+		height: 116.04px;
+	}
+	.featured__h2 {
+		margin-bottom: 3.3px;
+	}
+
+	.featured__p {
+		margin-bottom: 72.74px;
+	}
+
+	.featuredCards__block {
+		gap: 16px;
+	}
+	.feature_down {
+		margin-top: 32.48px;
+		margin-bottom: 70.52.px;
+	}
 }
