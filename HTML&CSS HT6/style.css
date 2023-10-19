@@ -120,7 +120,7 @@ img {
 	height: 260px;
 	width: 360px;
 }
-.categCard4 {
+.categCards4 {
 	background-image: url(./img/Accesories.png);
 	height: 180px;
 	width: 1140px;
@@ -287,8 +287,8 @@ img {
 		height: 167.62px;
 	}
 	.categCards4 {
+		height: 116px;
 		width: 734.58px;
-		height: 116.04px;
 	}
 	.featured__h2 {
 		margin-bottom: 3.3px;
