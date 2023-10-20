@@ -70,6 +70,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	margin-left: 63.42px;
+	cursor: pointer;
 }
 .mainText {
 	color: #222;
@@ -133,6 +134,7 @@ img {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	cursor: pointer;
 }
 
 .categDiscount {
@@ -168,6 +170,7 @@ img {
 	font-weight: 400;
 	line-height: normal;
 	margin-bottom: 6px;
+	cursor: pointer;
 }
 
 .featured__p {
@@ -190,6 +193,7 @@ img {
 .featuredCard {
 	max-width: 360px;
 	background-color: #f8f8f8;
+	cursor: pointer;
 }
 .f__card__h3 {
 	padding: 23px 16px 15px 16px;
@@ -304,5 +308,81 @@ img {
 	.feature_down {
 		margin-top: 32.48px;
 		margin-bottom: 70.52.px;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+	.container {
+		max-width: 359px;
+	}
+
+	.header {
+		max-width: 375px;
+	}
+
+	.main__bigBlock {
+		max-width: 375px;
+		margin-bottom: 64px;
+	}
+	.hide {
+		display: none;
+	}
+
+	.left__nav {
+		margin-left: 8px;
+	}
+	.right__nav {
+		margin-right: 8px;
+	}
+	.mainMessage {
+		margin-left: 56px;
+		margin-right: 56px;
+		margin-top: 148px;
+		margin-bottom: 148px;
+		max-height: 67px;
+	}
+	.mainText {
+		font-size: 38px;
+		padding-left: 15px;
+		margin-bottom: -3px;
+	}
+
+	.mainText_low {
+		font-size: 20px;
+		padding-left: 15px;
+	}
+	.pink__text {
+		font-size: 20px;
+	}
+	.categories {
+		gap: 32px;
+		margin-bottom: 64px;
+		justify-content: center;
+	}
+
+	.categCards1 {
+		width: 343px;
+		height: 247px;
+	}
+	.categCards2 {
+		width: 343px;
+		height: 247px;
+	}
+	.categCards3 {
+		width: 343px;
+		height: 247px;
+	}
+	.categCards4 {
+		width: 343px;
+		height: 111px;
+		background-position: center;
+		background-size: cover;
+	}
+	.featured__p {
+		margin-bottom: 64.7px;
+	}
+	.feature_down {
+		margin-top: 40.61px;
+		margin-bottom: 85px;
 	}
 }
