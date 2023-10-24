@@ -212,8 +212,38 @@ img {
 .featuredCard {
 	max-width: 360px;
 	background-color: #f8f8f8;
+	position: relative;
+}
+.featuredCard:hover .featured__basket {
+	display: block;
+}
+
+.featured__basket {
+	position: absolute;
+	top: 0;
+	display: none;
+}
+
+.f_card_btn {
+	color: #fff;
+	background-color: rgba(58, 56, 56, 0.86);
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	border: #ffffff solid 1px;
+	position: absolute;
+	top: 186.5px;
+	right: 114.4px;
+	display: flex;
+	gap: 11px;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
 	cursor: pointer;
 }
+
 .f__card__h3 {
 	padding: 23px 16px 15px 16px;
 	color: #000;
@@ -263,6 +293,11 @@ img {
 	line-height: normal;
 }
 
+.down_Button:hover {
+	background-color: #f16d7f;
+	color: #fff;
+}
+
 .advantages {
 	background-color: #222224;
 	max-width: 1600px;
@@ -301,6 +336,9 @@ img {
 	font-style: normal;
 	font-weight: 300;
 	line-height: normal;
+	max-width: 360px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .footer {
@@ -409,10 +447,47 @@ img {
 	border-radius: 0 19px 19px 0;
 	border: none;
 	padding: 16px 22px 16px 22px;
+	cursor: pointer;
 }
 
 .social {
 	background-color: #222224;
+}
+.social__box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.social__rights {
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.social__icons {
+	margin-top: 24px;
+	margin-bottom: 23px;
+	display: flex;
+	flex-direction: row;
+	gap: 7.29px;
+}
+.rectangele {
+	width: 32px;
+	height: 32px;
+	border: none;
+	cursor: pointer;
+}
+.rectangele:hover {
+	background-color: #f16d7f;
+}
+
+.rectangele:hover path {
+	fill: white;
 }
 
 @media (max-width: 1140px) and (min-width: 768px) {
@@ -479,6 +554,23 @@ img {
 	.feature_down {
 		margin-top: 32.48px;
 		margin-bottom: 70.52px;
+	}
+
+	.advantages {
+		max-width: 768px;
+	}
+	.advantages__wrap {
+		flex-direction: column;
+		padding-top: 48px;
+		padding-bottom: 64px;
+	}
+
+	.advantages__article {
+		margin-top: 7px;
+		margin-bottom: 7px;
+	}
+
+	.advantages__article_p {
 	}
 }
 
