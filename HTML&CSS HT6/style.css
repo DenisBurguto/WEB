@@ -229,7 +229,7 @@ img {
 	margin-top: 48px;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 60px;
+	margin-bottom: 95px;
 }
 .down_Button {
 	padding: 15px 39px 14px 39px;
@@ -241,6 +241,46 @@ img {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
+	line-height: normal;
+}
+
+.advantages {
+	background-color: #222224;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+.advantages__wrap {
+	display: flex;
+	gap: 30px;
+}
+.advantages__article {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 103px;
+	margin-bottom: 104px;
+}
+
+.advantages__article_h3 {
+	color: #fbfbfb;
+	font-family: Lato;
+	font-size: 19.96px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 16px;
+	margin-top: 25px;
+}
+
+.advantages__article_p {
+	color: #fbfbfb;
+	text-align: center;
+	font-family: Lato;
+	font-size: 13.972px;
+	font-style: normal;
+	font-weight: 300;
 	line-height: normal;
 }
 
@@ -307,7 +347,7 @@ img {
 	}
 	.feature_down {
 		margin-top: 32.48px;
-		margin-bottom: 70.52.px;
+		margin-bottom: 70.52px;
 	}
 }
 
