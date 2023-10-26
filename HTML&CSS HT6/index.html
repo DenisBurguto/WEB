@@ -11,14 +11,16 @@
 	</head>
 
 	<body>
+		<h2 style="display: none">Our super-puper shop</h2>
 		<header class="header">
 			<nav class="head__nav container">
+				<h2 style="display: none">shop main navigation</h2>
 				<div class="left__nav">
 					<a href="#"><img src="./img/MainLogo.svg" alt="main logo" /></a>
 					<button class="up__btn"><img src="./img/Search.svg" alt="Search" /></button>
 				</div>
 				<div class="right__nav">
-					<button class="up__btn"><img src="./img/List.svg" alt="list menu" /></button>
+					<button class="up__btn burger"><img src="./img/List.svg" alt="list menu" /></button>
 					<button class="up__btn hide"><img src="./img/Person.svg" alt="profile" /></button>
 					<div class="basket hide">
 						<button class="up__btn"><img src="./img/Basket.svg" alt="basket" /></button>
@@ -28,8 +30,44 @@
 				</div>
 			</nav>
 		</header>
+
 		<main class="main">
 			<section class="main__bigBlock">
+				<div class="menu_active hidden">
+					<div class="menu_active__all">
+						<h3 class="menu_heading">MENU</h3>
+						<div class="menu-man">
+							<h4 class="menu_text">MAN</h4>
+							<ul class="menu-list">
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Bags</a></li>
+								<li><a href="#">Denim</a></li>
+								<li><a href="#">T-Shirts</a></li>
+							</ul>
+						</div>
+						<div class="menu-women">
+							<h4 class="menu_text">WOMEN</h4>
+							<ul class="menu-list">
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Jackets &amp;&nbsp;Coats</a></li>
+								<li><a href="#">Polos</a></li>
+								<li><a href="#">T-Shirts</a></li>
+								<li><a href="#">Shirts</a></li>
+							</ul>
+						</div>
+						<div class="menu_kids">
+							<h4 class="menu_text">KIDS</h4>
+							<ul class="menu-list">
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Bags</a></li>
+								<li><a href="#">Denim</a></li>
+								<li><a href="#">T-Shirts</a></li>
+								<li><a href="#">Shirts</a></li>
+								<li><a href="#">Bags</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
 				<div class="mainImage hide">
 					<img src="./img/mainImage.png" alt="main image" />
 				</div>
@@ -249,6 +287,7 @@
 				<div class="feature_down"><button class="down_Button">Browse All Product</button></div>
 			</section>
 			<section class="advantages">
+				<h2 style="display: none">Our advantages</h2>
 				<div class="advantages__wrap container">
 					<article class="advantages__article">
 						<img src="./img/advantages_icon 1.svg" alt="delivery" />
@@ -259,7 +298,7 @@
 					</article>
 					<article class="advantages__article">
 						<img src="./img/advantages_icon 1-2.svg" alt="discount" />
-						<h3 class="advantages__article_h3">Sales & discounts</h3>
+						<h3 class="advantages__article_h3">Sales &amp;&nbsp;discounts</h3>
 						<p class="advantages__article_p">
 							Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.
 						</p>
@@ -297,6 +336,7 @@
 				</div>
 			</section>
 			<section class="social">
+				<h2 style="display: none">social network - follow us!</h2>
 				<div class="social__box container">
 					<p class="social__rights">© 2022 Brand All Rights Reserved.</p>
 					<div class="social__icons">
@@ -358,5 +398,6 @@
 				</div>
 			</section>
 		</footer>
+		<script src="./script.js" ; defer></script>
 	</body>
 </html>
